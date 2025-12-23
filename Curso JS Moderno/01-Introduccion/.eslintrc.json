@@ -1,0 +1,12 @@
+{
+    // Este codigo sirve para mostrar los errores de sintaxis 
+    // Realiza un autoevaluo de la sintaxis y muestra los errores
+
+    "parserOptions": {
+        "ecmaVersion": 6
+    },
+    "rules": {
+        // revisa si hay ; si no los tiene arroja error u advertencia
+        "semi": ["error", "always"]
+    }
+}
