@@ -5,6 +5,7 @@
 // puede acceder, eliminay y agregar funciones a el
 
 // se puede crear dos formas de objetos 1. estatica y otra dinamica, era uns forma antigua de crer clases
+// Puede crear multiples instancias de diferentes clientes o multiples objetos 
 
 // forma antigua
 
