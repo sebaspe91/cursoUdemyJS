@@ -20,12 +20,14 @@ localStorage.setItem('llave', 'valor');
 
 // Para guardar los datos de un arreglo u objeto se debe de pasar a string y el metodo mas facil es con JSON.stringify()
 
-// convertir un obnjeto en string
+
+// convertir un objeto en string
 const producto = {
     nombre : "Monitor 24 Pulgadas",
     precio : 300
 }
 
+// paso para convertir en formato JSON
 const prductoString = JSON.stringify(producto);
 
 // lo guardamos al local storaStoralge
