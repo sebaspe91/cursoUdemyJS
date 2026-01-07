@@ -2,6 +2,8 @@
 
 // un sets permite crear una lista de valores sin duplicados.
 
+// son mas rapidos que un arreglo o un objeto en iterar
+
 // Hace lo mismo q una lista que revisa si dento tiene valores iguales y los quita. La diferencia es que el sets es mucho mas rapido y sirve para valores masivos
 
 const carrito = new Set();
