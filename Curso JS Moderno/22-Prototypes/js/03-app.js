@@ -54,3 +54,5 @@ console.log(pedro.nombreCliente());
 console.log(pedro)
 
 // Nota: la diferencia de usar un function a un () => {} "Arrow function", es q la function busca en el objeto actual y el arrowFunction en la ventana global.... y para usar los this.  es necesario estar en el objeto actual
+
+// Las funciones que se crean con Cliente.trototype.nameProto ===> son exclusivos para la funcion principal que va al inicio

@@ -49,6 +49,11 @@ class Presupuesto {
     // calcula el restante del presupuesto
     calcularRestante(){
         // .reduce(), itera sobre un arreglo y va calculando la suma de los elementos indicados, toma 2 argumentos necesarios 
+
+        //  total ====> va tomar la suma de los elementos dentro del arreglo "this.gasto"
+        // gasto ====> son los valores del arreglo "this.gasto" 
+        // => total + gasto.cantidad ====> va la operacion 
+        // , 0 ====> inicia el conteo en 0
         const gastado = this.gastos.reduce((total, gasto) => total + gasto.cantidad, 0);
 
         // se saca el restante
@@ -131,6 +136,7 @@ class UI {
             const btnBorrar = document.createElement('button');
             btnBorrar.classList.add('btn', 'btn-danger', 'borrar-gasto');
             btnBorrar.type = "button";
+            // se hace con .innerHTML => por que el "&times" es una x que solo se lee con .innerHTML
             btnBorrar.innerHTML = 'Borrar &times';
 
             // borrar un elemento de la lista de gastos
