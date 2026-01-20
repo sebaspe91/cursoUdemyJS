@@ -21,4 +21,4 @@ function mostrarPaises() {
 }
 
 // 
-nuevoPais('Alemania', mostrarPaises);
+nuevoPais('Alemania', mostrarPaises); // aca se llama la funcion 

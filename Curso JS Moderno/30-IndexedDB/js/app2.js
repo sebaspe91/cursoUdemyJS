@@ -76,12 +76,12 @@ function crearCliente() {
     // crear el objeto q contiene los datos a agregar
     const nuevoCliente = {
         nombre : 'juan',
-        email : 'sebas@gml.co',
+        email : 'sebas@gmail.co',
         telefono : 3503360272
     }
 
     // agregar objeto a la base de datos
-    peticion = objectStore.add(nuevoCliente);
+    let peticion = objectStore.add(nuevoCliente);
 
     console.log(peticion)
 }

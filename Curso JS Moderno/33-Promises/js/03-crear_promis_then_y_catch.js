@@ -1,6 +1,12 @@
 // promesas
 
+/**
+ * Promises (Promesas) son objetos que representan la eventual finalización (o falla) de una operación asíncrona y su resultado. 
+ * Permiten manejar operaciones asíncronas de manera más limpia y controlada que los callbacks tradicionales.
+ */
+
 // palabras reservadas para el Promise:
+
 // resolve = que es lo que se va a ejecutar cuando se cumpla correctamente la promesa.
 
 // reject = se ejecuta cuando se tiene un error en la promesa

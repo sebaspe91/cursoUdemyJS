@@ -1,5 +1,17 @@
 // Mal uso
 
+/**
+ * Es cuando los elementos o estructura del codigo tienen bastantes hijos y la curba coje hacia dentro
+ * 
+ * --------------
+ *   ----------------
+ *     -----------------
+ *       ------------------
+ *     -----------------
+ *   ----------------
+ * --------------
+ */
+
 const paises = [];
 
 
