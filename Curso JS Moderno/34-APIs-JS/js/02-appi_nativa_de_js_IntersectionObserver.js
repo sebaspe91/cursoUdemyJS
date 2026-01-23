@@ -1,4 +1,5 @@
 // API  "INTERSECTION OBSERVER"
+// sirve para saber cuando se activa un elemento cuando sea visible en la pantalla cuando se hace scroll 
 // SINTAXIS     intersectionObserver()
 
 document.addEventListener('DOMContentLoaded', () => {

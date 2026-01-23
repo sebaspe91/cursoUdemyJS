@@ -15,9 +15,9 @@ const aplicarDescuento = new Promise( (resolve, reject) => {
     const descuento = true;
 
     if (descuento) {
-        resolve('Descuento Aplicado');
+        resolve('Descuento Aplicado'); // cuando el valor es true
     } else {
-        reject('No se pudo aplicar el descuento');
+        reject('No se pudo aplicar el descuento'); // cuando el valor es false
     }
 });
 
