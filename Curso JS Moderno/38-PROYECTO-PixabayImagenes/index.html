@@ -15,8 +15,9 @@
         <form id="formulario" class="">
             <div>
                 <label 
-                    class="block text-white font-bold uppercase"
-                >Término Búsqueda</label>
+                    class="block text-white font-bold uppercase">
+                    Término Búsqueda
+                </label>
                 <input 
                     type="text"
                     class="mt-3 rounded w-full p-2 "
@@ -33,11 +34,10 @@
         </form>
     </div>
 
-    <div id="resultado" class="container mx-auto mt-10  flex flex-wrap"></div>
+    <div id="resultado" class="container mx-auto mt-10  flex flex-wrap"></div> 
 
-    <div id="paginacion" class="container mx-auto mb-10 text-center">
-        
-    </div>
+    <!-- flex flex-wrap  ===> ayuda a que no se salga los elementos del bloque y evitar el scroll horizontal -->
+    <div id="paginacion" class="container mx-auto mb-10 text-center flex flex-wrap justify-center"></div>
 
     <script src="js/app.js"></script>
 </body>
