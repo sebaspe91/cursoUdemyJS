@@ -1,0 +1,22 @@
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* tipo de letra */
+
+.genos-regular{
+  font-family: "Genos", sans-serif;
+  font-weight: 400;
+}
+
+
+body {
+    font-family:  "Genos", sans-serif;
+}
+
+ 
