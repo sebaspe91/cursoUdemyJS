@@ -297,7 +297,7 @@ function iniciarApp() {
        
         if (recetasFavoritas.length) {
 
-            imprimirRecetas(recetasFavoritas)
+            imprimirRecetas(recetasFavoritas);
             return;
         } 
 
