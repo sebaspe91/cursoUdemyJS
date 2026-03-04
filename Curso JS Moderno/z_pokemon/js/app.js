@@ -99,7 +99,7 @@ function imprimirPikemons(pokemons = []) {
 
         // crear el card
         const cardPokemon = document.createElement('DIV');
-        cardPokemon.classList.add('w-1/2', 'md:w-1/3', 'lg:w-1/4', 'p-3', 'mb-4', 'rounded', 'border-2', 'border-gray-700', 'bg-gray-200');
+        cardPokemon.classList.add('w-full', 'sm:w-1/2', 'md:w-1/3', 'lg:w-1/4', 'p-3', 'mb-4', 'rounded', 'border-2', 'border-gray-700', 'bg-gray-200');
         cardPokemon.dataset.id = id;
         cardPokemon.id = `card${id}`;
 
@@ -143,7 +143,8 @@ function imprimirPikemons(pokemons = []) {
             // favoritoBtn.classList.contains('agregar-carrito')
             favoritoBtn.onclick = () => {
                 console.log('click eliminar'); // COMENTARIO
-                agregarFavorito(pokemon);            
+                elminarFavorito(pokemon);
+                         
             }
         } else {
             favoritoBtn.classList.remove('bg-red-700');
@@ -152,7 +153,7 @@ function imprimirPikemons(pokemons = []) {
 
             favoritoBtn.onclick = () => {
                 console.log('click agregar'); // COMENTARIO
-                elminarFavorito(pokemon);
+                agregarFavorito(pokemon);   
             }
         }
 
@@ -250,9 +251,9 @@ function obtenerFavoritos() {
 // imprimir mensajes de alerta
 function imprimirMensaje(mensaje, tipo, elemento) {
 
-    const existeMensaje = document.querySelector('.cardMensaje');
+    // const existeMensaje = document.querySelector('.cardMensaje');
 
-    if (!existeMensaje) {
+    // if (!existeMensaje) {
         const mensajeText = document.createElement('P');
         mensajeText.textContent = mensaje;
         mensajeText.classList.add('cardMensaje', 'p-3', 'mt-2', 'text-center', 'rounded', 'font-bold', 'mx-auto', 'mx-w-lg');
@@ -274,7 +275,7 @@ function imprimirMensaje(mensaje, tipo, elemento) {
             elemento.classList.remove('opacity-50', 'cursor-not-allowed');
             mensajeText.remove();
         },2000);
-    }
+    // }
     
 
 }
