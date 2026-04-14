@@ -5,7 +5,22 @@
       "email": "correo2@correo.com",
       "telefono": "12",
       "empresa": "12212",
-      "id": 26
+      "id": "26"
+    },
+    {
+      "nombre": "juan sebastian",
+      "email": "sebaspegu91@hotmail.com",
+      "telefono": "3148440934",
+      "empresa": "cotecnova",
+      "id": "ouPXWypklv4"
+    },
+    {
+      "nombre": "Lorena Gaitan",
+      "email": "lore@gmail.com",
+      "telefono": "3103607179",
+      "empresa": "hospital",
+      "id": "d0WvCVaS2_Q"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
