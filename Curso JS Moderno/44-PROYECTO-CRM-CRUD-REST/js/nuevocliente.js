@@ -1,5 +1,5 @@
 import {nuevoCliente} from "./API.js";
-import {imprimirMensaje} from "./funciones.js";
+import {imprimirMensaje, validar} from "./funciones.js";
 
 // USAMOS EL METODO IFI
 
@@ -37,10 +37,5 @@ import {imprimirMensaje} from "./funciones.js";
         nuevoCliente(cliente);
     }
 
-    // validar campos
-    function validar(obj) {
-        // Los valores del objeto que recibe como parametro, va hacer revisado uno a uno por .every() verifica que los campos no esten vacios 
-        return !Object.values(obj).every(input => input !== '');
-    }
 
 })();

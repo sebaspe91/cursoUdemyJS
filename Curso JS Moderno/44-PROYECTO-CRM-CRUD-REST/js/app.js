@@ -1,4 +1,4 @@
-import { obtenerClientes } from './API.js';
+import { obtenerClientes, eliminarCliente } from './API.js';
 
 (function() {
     const listadoClientes = document.querySelector('#listado-clientes');
@@ -36,15 +36,21 @@ import { obtenerClientes } from './API.js';
         });
     }
 
-// eliminar
-function confirmarEliminar(e) {
-    e.preventDefault();
+    // eliminar
+    function confirmarEliminar(e) {
+        e.preventDefault();
 
-    if (e.target.classList.contains('eliminar')) {
-        // leer el id del elemento que le dimos click
-        const clienteId = e.target.dataset.cliente;
-        console.log(clienteId);
+        if (e.target.classList.contains('eliminar')) {
+            // leer el id del elemento que le dimos click
+            const clienteId = e.target.dataset.cliente;
+
+            const confirmar = confirm('¿Desea eliminar este registro?');
+
+            if (confirmar) {
+                eliminarCliente(clienteId);
+            }
+            // console.log(clienteId);
+        }
     }
-}
 
 })();

@@ -22,3 +22,9 @@ export function imprimirMensaje(ubicacion, mensaje, tipo) {
     }
     
 }
+
+ // validar campos
+export function validar(obj) {
+        // Los valores del objeto que recibe como parametro, va hacer revisado uno a uno por .every() verifica que los campos no esten vacios 
+        return !Object.values(obj).every(input => input !== '');
+    }
