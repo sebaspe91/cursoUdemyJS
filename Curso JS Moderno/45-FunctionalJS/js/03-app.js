@@ -20,7 +20,7 @@ console.log(resultado); // retorna solo los valores mayores a 400
 
 // Sin envargo un orden function es una funcion que toma oretorna una funcion como argumento
 
-// EJEMPLO
+// EJEMPLO --- Hare Orden Function
 
 // se crea una funcion que realice la operacion 
 const mayor400 = producto => {

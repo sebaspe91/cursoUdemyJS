@@ -4,7 +4,7 @@ const multiplicar = (a, b) => a * b;
 
 
 // creamosuna funcion para utilizar las dos funciones de arriba
-const sumarOMultiplicar = fn => fn(10, 20);
+const sumarOMultiplicar = funcionX => funcionX(10, 20); // funcionX se puede colocar fn
 
 
 // pasamos la funcion como argumenta la cual sera el fn()

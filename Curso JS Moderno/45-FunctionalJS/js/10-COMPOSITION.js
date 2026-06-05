@@ -45,10 +45,11 @@ const guardarEmail = info => ({
     }
 })
 
-
+// ---------------------- Fin de la clase o creador de objtos ---------------------------- FIN --------------
 
 // UTILIZAMOS FUNCIONES 
 
+// objeto cliente
 function Cliente(nombre, email, empresa) {
     // se deben de guardar como objeto
     let info = {
@@ -67,6 +68,7 @@ function Cliente(nombre, email, empresa) {
     );
 }
 
+// creamos un nuevo objeto empleado
 function Empleado(nombre, email, puesto) {
     // 
     let info = {

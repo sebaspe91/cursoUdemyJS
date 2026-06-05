@@ -9,6 +9,7 @@
 const obtenerCliente = () => {
     const nombre = "Juan";
 
+    // funcion para poder ver el nombre desde afuera de la funcion
     function muestraNombre() {
         console.log(nombre);
     }
@@ -17,6 +18,7 @@ const obtenerCliente = () => {
 }
 
 const cliente = obtenerCliente();
+
 cliente();
 
 
