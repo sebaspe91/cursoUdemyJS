@@ -1,0 +1,13 @@
+
+// Configuracion del proyecto para que habilite los imports a un proyecto de node
+{
+    "presets": [
+        [
+            "@babel/preset-env", {
+                "targets": { // Los targets son las versiones que se van a soportar
+                    "node": "current"
+                }
+            }
+        ]
+    ]
+}

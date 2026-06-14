@@ -52,7 +52,15 @@
         </div>
     </div>
 
-    <script src="js/app.js"></script>
+    <script src="js/app.js" defer></script>
+    <!-- El script tiene atributos para descargar mas rapido el codigo
+
+        - async => descarga y ejecuta el codigo inmediatamente que haya sido descargado en su totalidad, 
+                    no es bueno usarlo cuando se tiene codigo q modifica el html o la apariencia inicial como nosotros en este proyecto se tiene el select no es bueno usarlo
+
+        - defer => No va a ejecutar el codigo del script.js hasta que el HTML este listo, gana un poco mas de performen y todo sigue funcionando
+     
+    -->
     
 </body>
 </html>

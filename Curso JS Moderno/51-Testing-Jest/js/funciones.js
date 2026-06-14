@@ -124,3 +124,8 @@ export function cargarEdicion(cita) {
     editando = true;
 
 }
+
+// CODIGO PARA EXPLCIAR TEXTING JEST
+export function suma(a, b) {
+    return a + b;
+}
